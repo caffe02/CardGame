@@ -44,14 +44,18 @@
       color: #FFFFFF;
     }
     .ul{
-      font-size: 12px;
+      font-size: 13px;
     }
+    .h3{
+      width : 7em;
+      font-size: 40px;
+      margin-right : auto;
+      margin-left : auto;
+      position:relative;
+      top: 20px;
+    }        
     body{
       background: #242830;
-    }
-    #gameContainer{
-      position:relative;
-      top: 200px;
     }
     </style>
     
@@ -65,19 +69,17 @@
     
     <h2 class = "h2">概要
       <ul class = "ul">
-        <li>CPUは生贄を無視して召喚してきます</li>
-        <li>こちら側は生贄を考慮して召喚する必要があります</li>
-        <li>モンスター効果は開発途中で発動しません</li>
-        <li>BGMは右上のアイコンでON/OFFの切り替えができます</li>
+       <li>CPUは生贄を無視して召喚してきます</li>
+       <li>こちら側は生贄を考慮して召喚する必要があります</li>
+       <li>モンスター効果は開発途中で発動しません</li>
+       <li>魔法・トラップカードは実装されていません</li>
+       <li>BGMは右上のアイコンからオン/オフの切り替えが可能です</li>
       </ul>
     </h2>
 
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 420px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-      </div>
-    </div>
+    <h3 class = "h3">
+     <a href = "index2.html">ゲームスタート</a>
+    </h3>
+    
   </body>
 </html>
