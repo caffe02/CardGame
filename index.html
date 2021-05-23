@@ -12,6 +12,13 @@
        UnityLoader.SystemInfo.mobile = false;
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/testweb2.json", {onProgress: UnityProgress});
     </script>
+    
+    <style>
+      #h1 {
+         color: orange;
+      }
+    </style>
+    
   </head>
   <body>
     <h1>遊戯王シミュレーター</h>
@@ -22,7 +29,9 @@
         <li>モンスター効果は開発途中で発動しません</li>
         <li>モ</li>
      </ul>
-    </p>   
+    </p>
+
+  
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 420px"></div>
       <div class="footer">
