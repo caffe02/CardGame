@@ -1,95 +1,64 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Yu-Gi-Oh!</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-       UnityLoader.SystemInfo.mobile = false;
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/testweb2.json", {onProgress: UnityProgress});
-    </script>
-    
-    <style>
-      .header{
-         background: #3f484d;
-      }
-      .img1{
-        width : 19em;
-        margin-right : auto;
-        margin-left : auto;
-        position:relative;
-        top: 10px;
-      }   
-      .h1{
-        width : 10em;
-        margin-right : auto;
-        margin-left : auto;
-        color: #FFFFFF;
-        position:relative;
-        top: 15px;
-      }
-    .p1{
-      width : 7em;
-      margin-right : auto;
-      margin-left : auto;
-      color: #FFFFFF;
-    } 
-    .h2{
-      background: #0f475e;
-      color: #FFFFFF;
-    }
-    .ul{
-      font-size: 13px;
-    }
-    .h3{
-      width : 7em;
-      font-size: 50px;
-      margin-right : auto;
-      margin-left : auto;
-      position:relative;
-      top: 20px;
-      font-weight: bold; 
-    }  
-    .p3{
-      color: #FFFFFF;
-      width : 20em;
-      font-size: 18px;
-      margin-right : auto;
-      margin-left : auto;
-    }
-      
-    body{
-      background: #242830;
-    }
-    </style>
-    
-  </head>
-  <body>
-    <header class = "header">
-      <p class="img1"><img src = "image/yogioh.png" alt = "" width="300"></p>
-      <h1 class = "h1">遊戯王シミュレーター</h1>
-      <p class = "p1">　~開発途中~</p>
-    </header>
-    
-    <h2 class = "h2">概要
-      <ul class = "ul">
-       <li>CPUは生贄を無視して召喚してきます</li>
-       <li>こちら側は生贄を考慮して召喚する必要があります</li>
-       <li>モンスター効果は開発途中で発動しません</li>
-       <li>魔法・トラップカードは実装されていません</li>
-       <li>BGMは右上のアイコンからオン/オフの切り替えが可能です</li>
-      </ul>
-    </h2>
+<html lang = "ja">
 
-    <h3 class = "h3">
-     <a href = "index2.html">ゲームスタート</a>
-    </h3>
-     <p class = "p3">　スマートフォンの場合、横向きが推奨です</p>
+<head>
+ <meta charset = "UTF-8">
+ <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+ <title>Yu-Gi-Oh!</title>
+ <link rel = "stylesheet" href = "style.css">
+</head>
 
-    
-  </body>
+<body>
+
+ <header>
+    <div class = "container">
+        <div class="area_logo_header">
+            <p class = "p1">CAFFE</p>
+        </div>
+        <nav class = "nav_header">
+            <ul class = "list_nav_header">
+                <li><a href = "">HOME</a></li>
+                <li><a href = "">CONTENTS</a></li>
+                <li><a href = "">PROFILE</a></li>
+            </ul>
+        </nav>
+    </div>
+ </header>
+
+ <main>
+    <div class = "area_top_view">
+        <p>Drip Caffe</p>
+    </div>
+    <div class = "icon">
+        <ul class = "icon_list">
+            <li><a href = "yugioh.html"><img src = "image/icon.png",style="margin-right:10px;"></a></li>
+            <li><a href = ""><img src = "image/icon_nodata.png"></a></li>
+            <li><a href = ""><img src = "image/icon_nodata.png"></a></li>
+        </ul>
+    </div>
+
+
+
+ </main>
+<!--
+ <h2 class = "h2">概要
+   <ul class = "ul">
+     <li>CPUは生贄を無視して召喚してきます</li>
+     <li>こちら側は生贄を考慮して召喚する必要があります</li>
+     <li>モンスター効果は開発途中で発動しません</li>
+     <li>魔法・トラップカードは実装されていません</li>
+     <li>BGMは右上のアイコンからオン/オフの切り替えが可能です</li>
+   </ul>
+ </h2>
+
+
+ <h3 class = "h3">
+   <a href = "index2.html">ゲームスタート</a>
+</h3>
+   <p class = "p3">　スマートフォンの場合、横向き推奨です</p>
+
+-->
+
+</body>
+
 </html>
