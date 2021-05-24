@@ -2,6 +2,17 @@
     background: #3f484d13;
 }
 
+.flex{
+    display:flex;
+}
+.is-between{
+    justify-content:space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
 .img1{
     width : 19em;
     margin-right : auto;
@@ -61,20 +72,20 @@ body{
 
 ul {
     list-style: none;
-  }
+}
 
 header{
     width: 100%;
+    height:90px;
     position: absolute;
     top: 0;
     left: 0;
-    background: #4E4A4A;
 }
 header > .container{
+    background: #4E4A4A;
     display: flex;
     align-items: center;
-    height : 90px;
-
+    height:80%;
 }
 .area_logo_header p{
     padding: 0 20px;
@@ -99,10 +110,24 @@ header > .container{
     color: #2699FB;
 }
 
-main{
+/*HOME.html*/
 
+.item-wrap{
+    width:100%;
+    align-items: center;
+    justify-content: center;
 }
-
+.item_list{
+    max-width: 360px;
+    width:70%;
+    padding:0 10px;
+}
+.img_list{
+    max-width: 360px;
+    height: 480px;
+    width:100%;
+    height:100%;
+}
 
 .area_top_view{
     height : 200px;
@@ -168,24 +193,64 @@ main{
 
 .area_top_view_info{
     height : 300px;
-
-    flex-direction: column;
+    max-width: 1200px;
 
 
 }
 .area_top_view_info > .container{
-    background-color: #69625d36;
-    width: 1900px;
-    height: 270px;
-    transform: translateY(10%);
-    margin-left: 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #37495756;
+    max-width: 1200px;
+    height: 300px;
     font-size: 20px; 
+    color: #FFFFFF;
+}
 
-}
-.area_top_view_info > .container p{
-    font-size: 40px; 
-    line-height: 0%;
-}
-.area_top_view_info > .container li{
+
+.area_top_view_info > .container .title{
     font-size: 30px; 
 }
+.area_top_view_info > .container > .list_p p{
+    font-size: 25px;
+    margin: 0em 0px; 
+}
+
+/*スマホの記述*/
+@media screen and (max-width: 414px){
+    /*HOME.html*/
+    .area_top_view p{
+        color: #ffffff;
+        font: 500 60px/1em "Vladimir Script","noto sans japanese",sans-serif;
+        transform: translateY(40%);
+    }
+    .item_list{
+        max-width: 360px;
+        width:70%;
+        padding:0 1px;
+    }
+    /*Yugiog.html*/
+    .list_nav_header{
+        display:none;
+    }
+    header > .container{
+    background: #4E4A4A;
+    display: flex;
+    align-items: center;
+    height:60%;
+    }
+    .area_logo_header p{
+        padding: 0 20px;
+        font-size: 30px;
+    }
+    
+    .area_top_view_info > .container .title{
+        font-size: 20px; 
+    }
+    .area_top_view_info > .container > .list_p p{
+        font-size: 14px;
+        margin: 0em 0px;
+    }
+}
+
