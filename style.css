@@ -1,286 +1,72 @@
-.header{
-    background: #3f484d13;
-}
-
-.flex{
-    display:flex;
-}
-.is-between{
-    justify-content:space-between;
-}
-
-a {
-    text-decoration: none;
-}
-
-.img1{
-    width : 19em;
-    margin-right : auto;
-    margin-left : auto;
-    position:relative;
-    top: 10px;
-}
-
-.h1{
-    width : 10em;
-    margin-right : auto;
-    margin-left : auto;
-    color: #FFFFFF;
-    position:relative;
-    top: 15px;
-}
-
-.p1{
-    width : 7em;
-    margin-right : auto;
-    margin-left : auto;
-    color: #FFFFFF;
-}
-
-.h2{
-    background: #0f475e;
-    color: #FFFFFF;
-}
-
-.ul{
-font-size: 13px;
-}
-
-.h3{
-    width : 7em;
-    font-size: 40px;
-    margin-right : auto;
-    margin-left : auto;
-    position:relative;
-    top: 20px;
-}
-.p3{
-    color: #FFFFFF;
-    width : 20em;
-    font-size: 18px;
-    margin-right : auto;
-    margin-left : auto;
-}
-
-
-
-
-
-body{
-    background: #c0bab3;
-}
-
-ul {
-    list-style: none;
-}
 
 header{
-    width: 100%;
-    height:90px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    max-width: 360px;
 }
 header > .container{
-    background: #4E4A4A;
+    max-width :360px;
     display: flex;
-    align-items: center;
-    height:80%;
-}
-.area_logo_header p{
-    padding: 0 20px;
-    font-size: 40px;
-}
-
-
-.nav_header{
-    margin: 0 0 0 auto;
-}
-.list_nav_header{
-    display: flex;
-    align-items: center;
-    margin: 0px;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top:5px;
 
 }
-.list_nav_header > li{
-    padding: 0 15px;
-    font-size: 25px;
-}
-.list_nav_header a{
-    color: #2699FB;
-}
 
-/*HOME.html*/
+.main_back{
+    max-width :360px;
+    height:180px;
 
-.item-wrap{
-    width:100%;
-    align-items: center;
-    justify-content: center;
-    display:flex;
+    z-index: -2;
 }
-.item_list{
+.main_back img{
     max-width: 360px;
-    width:70%;
-    padding:0 10px;
-}
-.img_list{
-    max-width: 360px;
-    height: 480px;
-    width:100%;
-    height:100%;
+    width: 100%;
+    position:absolute;
+    top: 0px;
+    left:9px;
+    z-index: -1;
 }
 
-.area_top_view{
-    height : 200px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #ffffff4d;
-}
-
-
-
-.area_top_view p{
-    font-size: 50px;
-    color: #ffffff;
-    font: 500 80px/1em "Vladimir Script","noto sans japanese",sans-serif;
-    transform: translateY(40%);
-}
-
-.icon_list{
-    display: flex;
-    top: 30px;
-    padding: 150px 0px 0 70px;
-}
-
-.icon_list li{
-    padding: 0 20px;
-}
-
-/*yugioh.html*/
-.area_top_view_yugioh{
-    height : 400px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.area_top_view_yugioh_text{
-    text-align: center;
-    line-height: 30%;
-
-    font-size: 30px; 
-}
-#t1{
-    font-size: 30px; 
-}
-#t2{
-    font-size: 20px; 
-}
-.area_top_view_button{
-    height : 150px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-.area_top_view_button p{
-    line-height: 0%;
-}
-
-.area_top_view_info{
-    height : 300px;
-    max-width: 1200px;
-
-
-}
-.area_top_view_info > .container{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #37495756;
-    max-width: 1200px;
+.contents > .container{
+    width :2000px;
     height: 300px;
-    font-size: 20px; 
-    color: #FFFFFF;
+    position: relative;
+    left: -600px;
+}
+.title{
+    max-width :360px;
+
+    position: relative;
+    position: relative;
+    left: 600px;
+}
+.title > .container{
+    max-width :360px;
+    width: 50%;
+}
+
+.title > .container p{
+    border-bottom: solid 2px #000000;
+
 }
 
 
-.area_top_view_info > .container .title{
-    font-size: 30px; 
-}
-.area_top_view_info > .container > .list_p p{
-    font-size: 25px;
-    margin: 0em 0px; 
-}
 
-/*スマホの記述*/
-@media screen and (max-width: 414px){
-    /*HOME.html*/
-    .area_top_view p{
-        color: #ffffff;
-        font: 500 60px/1em "Vladimir Script","noto sans japanese",sans-serif;
-        transform: translateY(40%);
-    }
-    .item-wrap{
-        width:100%;
-        align-items: center;
-        justify-content: center;
-        display:block;
-        
-    }
-    .item_list{
-        max-width: 360px;
-        width:90%;
-        padding:10 1px;
-    }
-    .img_list{
-        max-width: 360px;
-        height: 480px;
-        width:100%;
-        height:100%;
-    }
+.contents > .container > .img_contents{
+    max-width :1200px;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    left:400px;
 
-    /*Yugiog.html*/
-    .list_nav_header{
-        display:none;
-    }
-    header > .container{
-    background: #4E4A4A;
+
+}
+.contents > .container > .img_contents > .container{
     display: flex;
-    align-items: center;
-    height:60%;
-    }
-    .area_logo_header p{
-        padding: 0 20px;
-        font-size: 30px;
-    }
+    max-width :700px;
+    width: 70%;
+    justify-content:space-between;
     
-    .area_top_view_info > .container .title{
-        font-size: 20px; 
-    }
-    .area_top_view_info > .container > .list_p p{
-        font-size: 14px;
-        margin: 0em 0px;
-    }
 
-    .area_top_view_button{
-        height : 50px;
-    }
-    .area_top_view_info > .container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #37495756;
-        max-width: 1200px;
-        height: 180px;
-        font-size: 20px; 
-        color: #FFFFFF;
-        transform: translateY(30%);
-    }
 }
-
