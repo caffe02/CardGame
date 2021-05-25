@@ -13,6 +13,7 @@ header > .container{
 
 }
 
+
 .main_back{
     max-width :360px;
     height:180px;
@@ -29,17 +30,12 @@ header > .container{
 }
 
 .contents > .container{
-    width :2000px;
+    max-width :360px;
     height: 300px;
-    position: relative;
-    left: -600px;
+
 }
 .title{
     max-width :360px;
-
-    position: relative;
-    position: relative;
-    left: 600px;
 }
 .title > .container{
     max-width :360px;
@@ -48,25 +44,36 @@ header > .container{
 
 .title > .container p{
     border-bottom: solid 2px #000000;
-
+    position:relative;
+    left:15px;
+    top:-20px
+}
+.img_contents{
+    position:relative;
+    top:-40px;
 }
 
-
-
-.contents > .container > .img_contents{
-    max-width :1200px;
-    height: 300px;
-    width: 100%;
-    position: relative;
-    left:400px;
-
-
+.img_contents > .container{
+    max-width :360px;
 }
-.contents > .container > .img_contents > .container{
-    display: flex;
-    max-width :700px;
-    width: 70%;
-    justify-content:space-between;
-    
-
+.img_contents > .container img{
+    max-width :360px;
+    width:80%;
+    margin: 30px 30px;
+}
+.option_contents{
+    max-width :360px;
+}
+.option_contents img{
+    margin: 0px 140px;
+    position:relative;
+    top:-40px;
+}
+.box{
+    height:600px;
+    width:360px;
+    position:absolute;
+    top:0;
+    left:0;
+    background:#e62a2a57;
 }
