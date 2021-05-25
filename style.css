@@ -11,7 +11,17 @@ header > .container{
     position: relative;
     top:8px;
     left:-10px;
-
+}
+header > .container2{
+    max-width :414px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top:8px;
+    left:-10px;
+    border-bottom: solid 2px #000000;
 }
 
 
@@ -72,3 +82,77 @@ header > .container{
     left:0;
 
 }
+
+/*yougioh*/
+.area_top_view_yugioh{
+    max-width:414px;
+    height:100px;
+
+    position:relative;
+    top:10px;
+}
+.area_top_view_yugioh img{
+    display:block;
+    margin:auto;
+    position:relative;
+    top:10px;
+}
+.area_top_view_yugioh_text{
+    position:relative;
+    top:10px;
+    text-align: center
+}
+
+.info_image{
+        max-width:414px;
+        height:250px;
+
+        position:relative;
+        top:10px;
+}
+
+.info_play img{
+    display:block;
+    margin:auto;
+}
+
+.info_button img{
+    display:block;
+    margin:auto;
+        position:relative;
+        top:20px;
+}
+.info_button p{
+        text-align: center;
+        position:relative;
+        top:20px;
+}
+.area_top_view_info{
+    max-width:414px;
+    height:300px;
+
+
+}
+.area_top_view_info > .container{
+        max-width:380px;
+        height:190px;
+        background:#37495796;
+        display:block;
+        margin:auto;
+}
+.area_top_view_info > .container > .title p{
+        position:relative;
+        top:15px;
+        left:12px;
+        color:#FFFFFF;
+}
+.area_top_view_info > .container > .list_p p{
+        position:relative;
+        top:5px;
+        left:20px;
+        font-size: 12px;
+        margin: 0.5em 0px; 
+        color:#FFFFFF;
+}
+
+
