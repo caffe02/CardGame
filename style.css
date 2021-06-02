@@ -177,7 +177,7 @@ a{
     text-decoration: none;
     color:#FFFFFF;
 }
-.menu_header img{
+#menu_header img{
     cursor: pointer;
 }
 .batu_header img{
@@ -204,9 +204,15 @@ a{
     width:100%;
 }
 
-#menu:checked ~ .maincontent{
-    display:none;
+.maincontent{
+	opacity: 1;
+    transition: all 0.5s;
+
 }
+.open {
+	opacity: 0;
+}
+
 
 .menu_contents{
     height:500px;

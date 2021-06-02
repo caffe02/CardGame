@@ -6,20 +6,21 @@
     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <title>Caffe Site</title>
     <link rel = "stylesheet" href = "style.css">
+
 </head>
 
 
 <body>
     <main>
         <input id="menu" type="checkbox" value="on">
-        <div class = "maincontent">
+        <div class ="maincontent" id = "maincontent_id">
             <div class = "header">
                 <div class = "container">
                     <div class="logo_header">
                         <a href = "index.html"><img src = "img/CAFFE SITE.png"></a>
                     </div>
-                    <div class = "menu_header">
-                        <label for="menu"><img src = "img/Menu.png"></label>
+                    <div id = "menu_header">
+                        <label for="menu"><img src = "img/Menu.png" onclick ="clickmenu()"></label>
                     </div>
                 </div>
             </div>
@@ -49,7 +50,7 @@
 
         <div class = "backg_menu">
             <div class="batu_header">
-                <label for = "menu"><img src = "img/batu.png"></label>
+                <label for = "menu"><img src = "img/batu.png" onclick ="clickmenu()"></label>
             </div>
             <div class = "menu_contents">
                 <div>
@@ -79,6 +80,8 @@
         
 
     </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./jav.js" charset="Shift_JIS"></script>
 </body>
 
 </html>
