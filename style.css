@@ -1,3 +1,7 @@
+@media screen and (max-width: 414px){
+body{
+    overflow: hidden;
+}
 a {
     text-decoration: none;
     color:#FFFFFF;
@@ -8,6 +12,7 @@ input{
 .header{
     max-width: 414px;
 }
+
 .header > .container{
     max-width :414px;
     display: flex;
@@ -22,11 +27,11 @@ input{
     max-width :414px;
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: auto;
     position: relative;
     top:8px;
-    left:-10px;
+    left:0px;
     border-bottom: solid 2px #000000;
 }
 .header > .container3{
@@ -179,6 +184,9 @@ a{
 }
 #menu_header img{
     cursor: pointer;
+    position:relative;
+    top:5px;
+    left:5px;
 }
 .batu_header img{
     position:relative;
@@ -240,4 +248,5 @@ a{
     left:40px;
     font-size:17px;
 
+}
 }
