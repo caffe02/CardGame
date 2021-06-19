@@ -12,52 +12,53 @@
 <body>
     <main>
         <input id="menu" type="checkbox" value="on">
-        <div class ="maincontent" id = "maincontent_id">
-            <div class = "header">
-                <div class = "container2">
-                    <div class="logo_header">
-                        <a href = "index.html"><img src = "img/CAFFE SITE.png"></a>
-                    </div>
-                    <div class = "menu_header">
-                        <label for="menu"><img src = "img/Menu.png" width="35" height="25" onclick ="clickmenu()"></label>
-                    </div>
-                </div>
-            </div>
-        
 
-            <div class = "box"></div>
-            <div class = "area_top_view_yugioh">
-                <img src = "img/yogioh.png" alt = "" width="140" height="36">
-                <div class ="area_top_view_yugioh_text" >
-                    <p>遊戯王シミュレーター</p>
-                    <p>～開発段階～</p>
+        <div class = "header">
+            <div class = "container2">
+                <div class="logo_header">
+                    <a href = "index.html"><img src = "img/CAFFE SITE.png"></a>
                 </div>
-            </div>
-            <div class = "info_image">
-                <div class = "info_play">
-                    <a href = "game.html"><img src = "img/playimage.png" alt = ""></a>
-                </div>
-                <div class = "info_button">
-                    <a href = "game.html"><img src = "img/button.png" alt = ""></a>
-                    <p>スマートフォンの場合、横向きが推奨です</p>
-                </div>
-            </div>
-            <div class = "area_top_view_info">
-                <div class ="container">
-                    <div class ="title">
-                        <p>注意点</p>
-                    </div>
-                    <div class ="list_p"> 
-                        <p>・CPUは生贄を無視して召喚してきます</p>
-                        <p>・こちら側は生贄を考慮して召喚する必要があります</p>
-                        <p>・モンスター効果は開発途中で発動しません</p>
-                        <p>・魔法・トラップカードは開発途中で実装されておりません</p>
-                        <p>・BGMは右上のアイコンからオン/オフの切り替えが可能です</p>
-                    </div>
+                <div class = "menu_header">
+                    <label for="menu"><img src = "img/Menu.png" width="35" height="25" onclick ="clickmenu()"></label>
                 </div>
             </div>
         </div>
+    
 
+        <div class = "box"></div>
+        <div class = "area_top_view_yugioh">
+            <img src = "img/yogioh.png" alt = "" width="140" height="36">
+            <div class ="area_top_view_yugioh_text" >
+                <p>遊戯王シミュレーター</p>
+                <p>～開発段階～</p>
+            </div>
+        </div>
+        <div class = "info_image">
+            <div class = "info_play">
+                <a href = "game.html"><img src = "img/playimage.png" alt = ""></a>
+            </div>
+            <div class = "info_button">
+                <a href = "game.html"><img src = "img/button.png" alt = ""></a>
+                <p>スマートフォンの場合、横向きが推奨です</p>
+            </div>
+        </div>
+        <div class = "area_top_view_info">
+            <div class ="container">
+                <div class ="title">
+                    <p>注意点</p>
+                </div>
+                <div class ="list_p"> 
+                    <p>・CPUは生贄を無視して召喚してきます</p>
+                    <p>・こちら側は生贄を考慮して召喚する必要があります</p>
+                    <p>・モンスター効果は開発途中で発動しません</p>
+                    <p>・魔法・トラップカードは開発途中で実装されておりません</p>
+                    <p>・BGMは右上のアイコンからオン/オフの切り替えが可能です</p>
+                </div>
+            </div>
+        </div>
+        <div class ="maincontent" id = "maincontent_id">
+        </div>
+        
         <div class = "backg_menu">
             <div class="batu_header">
                 <label for = "menu"><img src = "img/batu.png" onclick ="clickmenu()"></label>
@@ -67,22 +68,25 @@
                     <p><a href = "index.html">HOME</a></p>
                 </div>
                 <div class ="contents">
-                    <div>
+                    <input id="menu_plus" type="checkbox">
+                    <div class = "title">
                         <p>CONTENTS</p>
+                        <label for = "menu_plus" class = "plus"><img src = "img/プラス.png" width=18px height=18px></label>
+                        <label for = "menu_plus" class = "mynus"><img src = "img/マイナス.png"></label>
                     </div>
                     <div class ="contents_list">
                         <ul>
                             <li><a href = "yugioh.html">遊戯王シミュレーター</a></li>
-                            <li><a href = "">COMING SOON ...</a></li>
-                            <li><a href = "">COMING SOON ...</a></li>
+                            <li><a href = "CONTENTS.html">COMING SOON ...</a></li>
+                            <li><a href = "CONTENTS.html">COMING SOON ...</a></li>
                         </ul>
                     </div>
                 </div>
                 <div>
-                    <p>PROFILE</p>
+                    <a href = "PROFILE.html"><p>PROFILE</p></a>
                 </div>
                 <div>
-                    <p>CONTACT</p>
+                    <a href = "CONTACT.html"><p>CONTACT</p></a>
                 </div>
             </div>
         </div>
