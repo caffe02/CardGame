@@ -109,6 +109,15 @@ input{
 }
 
 /*yougioh*/
+.bk img{
+    width:100%;
+    position:absolute;
+    top:60px;
+    left:0px;
+    z-index:-1;
+    opacity:0.2;
+}
+
 .area_top_view_yugioh{
     max-width:414px;
     height:100px;
