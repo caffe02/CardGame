@@ -1,0 +1,151 @@
+@charset "utf -8";
+body{
+    /* フォント指定 */
+    /* font-family: serif; */
+    font-family: question_mark,futura-pt,sans-serif;
+    margin: 0px;
+}
+/* padding等の位置や決め方をborder-boxにする */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "myfont";
+    src: url("fonts/LibreBaskerville-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "head";
+    src: url("fonts/Playball-Regular.ttf") format('truetype');
+}
+
+@media screen and (max-width: 414px){
+header{
+    max-width: 414px;
+}
+header >.header_box{
+    border-bottom: solid 2px #000000;
+}
+header >.header_box> .container{
+    max-width :414px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+header >.header_box> .container > .menu_button img{
+    cursor: pointer;
+}
+
+.top_view{
+    height: 200px;
+
+}
+.top_view > .img{
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    max-width: 414px;;
+}
+.top_view > .img img{
+/*     max-width: 414px;
+    width:100%; */
+    
+    /* 中央寄 */
+    position: absolute;
+    left: -40%; /* 左を基準に中央配置 */
+
+
+
+
+}
+.top_view > .text{
+    max-width: 414px;
+    position: relative;
+    top:-30%;
+}
+.top_view > .text img{
+    max-width: 414px;
+    /* 画像を縮小 */
+    width: 50%;
+    /*右にずらす*/
+    margin-left: 45%;
+} 
+
+
+.contents1 > .title_box{
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    border-bottom: solid 2px #000000;
+}
+.contents1 > .title_box img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.contents1>.container1{
+    /* 改行 */
+    margin-top:80px;
+}
+.contents1>.container1 img{
+    /* 中央寄 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    /* 画像を縮小 */
+    max-width: 414px;
+    width: 50%;
+}
+.contents1>.container1>.subtitle{
+    display: flex;
+    
+}
+
+.contents1>.container1>.subtitle img{
+    /* 画像を縮小 */
+    max-width: 414px;
+    width: 15%;
+    height: 15%;
+    position: relative;
+    top:20%;
+}
+.contents1>.container1>.subtitle>.text{
+    /* 中央寄 */
+    text-align: center;
+    height: 5em;
+    position: relative;
+
+
+}
+.contents1>.container1>.subtitle>.text p{
+    margin: 0px;
+    position: relative;
+    top:20%;
+    
+}
+.container2{
+    /* 改行 */
+    margin-top:30px;
+}
+
+.container2 img{
+    /* 中央寄 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 80%;
+}
+.container2>.text{
+margin: 0 40px;
+margin-top: 30px;
+}
+
+
+.hide{
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+}
+}
